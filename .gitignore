@@ -1,4 +1,5 @@
 node_modules
 build
 app/src/contracts
+.env
 .DS_Store
