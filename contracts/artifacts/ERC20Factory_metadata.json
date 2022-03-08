@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_supply",
+						"type": "uint256"
+					}
+				],
+				"name": "createToken",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20Factory.sol": "ERC20Factory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Context.sol": {
+			"keccak256": "0xb97b99a16434c2044d92c4b0f1e28ca534c1c91387977734f2b71fa9a39bad5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a3903b01ee933cd915e836d9cb93b2fc7281b0bc64fd9865eeafe1af8c96da8",
+				"dweb:/ipfs/QmWEBLLQzt8swrrZpPHJ2kskq28zXDqFoRntZt39Dg7U1y"
+			]
+		},
+		"contracts/ERC20.sol": {
+			"keccak256": "0x98c45b0fe9d3a7795caa47c7be0c9ec2886f04ce9e431ec92316ae1865eabeb6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14dd87ac42d4a0129797e2ccd256347a20c564600a724884b6fab5a5123c59ff",
+				"dweb:/ipfs/QmYRJPuH7YS6L3SsngVFEHnBXZvzH3h3DVtfpD7SavMbe2"
+			]
+		},
+		"contracts/ERC20Factory.sol": {
+			"keccak256": "0x92cb2898d4176b4f95666990fc591f18ac30d52382dde47c8f2facd9370daf9c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f1eac94f794aa7028364de82b8fffc9e9b57704d7c53afb6c01be851fe82aee",
+				"dweb:/ipfs/QmSYD91cgcULZGDonaxHcQZqLuCmtMeNzmNsbQj9Zrmsqs"
+			]
+		},
+		"contracts/IERC20.sol": {
+			"keccak256": "0xd7fd6cb862cf91ff2eb153605fe00b4d709ab2b8b62db9065ed8838bf37d42e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fb88af7849d06a8381d537797102956741a1223d12c09bfc1f0ad32cfb558bc1",
+				"dweb:/ipfs/QmSpQ8hAeUJWadfgeDZjXPbbD55ho4VFSMXP5DrQhmyyid"
+			]
+		},
+		"contracts/IERC20MetaData.sol": {
+			"keccak256": "0xe96541858c567a97b309ea399a5550d8e58023c14dcc662e2c2c8bf33291e2f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1264efa0daf17a7bf46a109162bbeb6b60eff7dc4f2c39922926fb41a60f1f67",
+				"dweb:/ipfs/QmajdjtpxDMEUx6KwY7JAddq83Jb1MthX4CDyWkQyLncxW"
+			]
+		}
+	},
+	"version": 1
+}
